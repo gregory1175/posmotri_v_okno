@@ -19,13 +19,14 @@
 
   .result__video-container {
     margin-bottom: 16px;
-    width: 711px;
+    inline-size: 711px;
+    block-size: 384px;
     position: relative;
-
   }
 
   .result__video {
     width: 100%;
+    block-size: 100%;
   }
 
   .search-form {
@@ -78,7 +79,6 @@
     outline-offset: 1px;
   }
   
-
   .search-form__checkbox-list {
     display: flex;
     gap: 15px;
@@ -117,7 +117,7 @@
 
   .content__accent {
     color: #545050;
-    font-family: Oswald;
+    font-family: "Oswald", "Arial", sans-serif;
     line-height: 0.94; 
   }
 
@@ -132,7 +132,6 @@
   }
 
   .content__list-item {
-
     margin-bottom: 30px;
   }
 
@@ -167,6 +166,7 @@
     display: flex;
     justify-content: space-between;
   }
+
   /* текст внутри*/
   .content__video-card-description-container {
     width: 100%;
@@ -178,7 +178,7 @@
   .content__video-card-title {
     padding: 2px 0px 6px 2px;
     color: #FFF;
-    font-family: Oswald;
+    font-family: "Oswald", "Arial", sans-serif;
     font-size: 30px;
     font-style: normal;
     font-weight: 700;
@@ -195,8 +195,8 @@
 
   /* картинка внутри*/
   .content__video-card-thumbnail {
-    width: 194px;
-    height: 103px;
+    inline-size: 194px;
+    block-size: 103px;
   }
 
   .button {
