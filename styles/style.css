@@ -1,32 +1,27 @@
-  /* .content {
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    width: 1140px;
-  } */
-
   .content {
     display: flex;
     width: 100%;
+    gap: 30px;
     padding: 133px 30px;
   }
 
   .result {
-    margin-right: 30px;
     width: 100%;
     align-self: flex-end;
   }
 
   .result__video-container {
-    margin-bottom: 16px;
-    inline-size: 711px;
-    block-size: 384px;
     position: relative;
+    inline-size: 711px;
+    block-size: 386px;
+    margin-bottom: 16px;
   }
 
   .result__video {
     width: 100%;
     block-size: 100%;
+    object-fit: cover;
+    object-position: center;
   }
 
   .search-form {
